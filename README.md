@@ -57,3 +57,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# My laravel pos system 
+ This is a point of sales system bulit with laravel 
+
+ ## Requirement 
+ - PHP >= 8.1
+ - Composer 
+ - MYSQL
+
+ ## Installation
+ 1. Clone the repository
+ 2. Run `composer install`
+ 3. Copy `.env.example` to `.env`
+ 4. Run `php artisan key:generate`
+ 5. Configure Database
+ 6. Run `php artisan migrate`
+ 7. Run `php artisan serve`
