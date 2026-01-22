@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Sale extends Model
+{
+    protected $table = 'sales';
+
+
+    static public function sale_count()
+    {
+        return self::count();
+    }
+
+}
